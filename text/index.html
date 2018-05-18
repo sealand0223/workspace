@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>职位推荐</title>
+    <link rel="stylesheet" href="/static/node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+<!-- 导航栏开始 -->
+<header class="head-wrap">
+    <div class="logo">职位推荐</div>
+    <div class="nav-middle"></div>
+    <div class="nav-right">
+        <a class="nav-item">首页</a>
+        <a class="nav-item">Java</a>
+        <a class="nav-item">C/C++</a>
+        <a class="nav-item">Python</a>
+        <a class="nav-item">SQL</a>
+        <a id="login" class="nav-item">登录</a>
+    </div>
+</header>
+<!-- 导航栏结束 -->
+<section>
+    <div class="loginContainer">
+        <div class="login-content">
+            <form class="LoginFlow">
+                <div class="login-account">
+                    <input type="text" placeholder="请输入用户名" class="login-input">
+                </div>
+                <div class="login-password">
+                    <input type="password" placeholder="请输入密码" class="login-input">
+                </div>
+                <button type="submit">登录</button>
+            </form>
+        </div>
+    </div>
+</section>
+<script src="/static/node_modules/jquery/dist/jquery.min.js"></script>
+<script src="/static/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="node_modules/jquery-datetimepicker/jquery.datetimepicker.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/zth-confirm.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title style="background-color: white">Todo List</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="header"><h1>Todo List</h1></div>
+    <div class="add-task">
+        <form>
+            <input id="content" type="text" placeholder="添加Todo" autofocus autocomplete="off">
+        <button type="submit">submit</button>
+        </form>
+    </div>
+    <div class="task-list">
+    </div>
+    <div class="task-detail">
+
+    </div>
+    <div class="task-done">
+        <div class="done-header">
+            <h2>已完成事项</h2>
+        </div>
+        <div class="done-body">
+
+        </div>
+    </div>
+</div>
+<div class="task-detail-mask"></div>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="js/zth-confirm.js"></script>
+<script src="node_modules/store/dist/store.legacy.min.js"></script>
+<script src="node_modules/php-date-formatter/js/php-date-formatter.min.js"></script>
+<script src="node_modules/jquery-mousewheel/jquery.mousewheel.js"></script>
+<script src="node_modules/jquery-datetimepicker/jquery.datetimepicker.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
